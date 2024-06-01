@@ -1,1 +1,6 @@
-console.log('hello git :))');
+const button = document.getElementById("btn");
+
+button.addEventListener("click", function () {
+  console.log(this);
+});
+console.log("hello git :))");
